@@ -21,7 +21,9 @@
 
 Чтобы начать
 ```
-make build up init
+make build up
+sleep 10
+make init
 ```
 
 Чтобы войти в бд

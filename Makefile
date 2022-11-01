@@ -35,7 +35,7 @@ mysql: ## Mysql shell
 
 alters:
 	@echo "Executing alters from src/init/alters.sql"
-	cat src/init/alters.sql | docker-compose run mysql mysql -u"root" --password="1234" -h"mysql"
+	cat src/init/alters.sql | docker-compose run mysql mysql karma8 -u"root" --password="1234" -h"mysql"
 
 composer:
 	docker-compose run php composer install
