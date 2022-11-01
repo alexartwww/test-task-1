@@ -1,0 +1,32 @@
+{
+    "name": "artem/karma8",
+    "autoload": {
+        "psr-4": {
+            "Artem\\Karma8\\": "src/"
+        },
+        "files": [
+            "src/functions/check_mail_logs.php",
+            "src/functions/random_string.php",
+            "src/functions/send_email.php",
+            "src/functions/check_smtp_server.php",
+            "src/functions/check_mx_records.php",
+            "src/functions/get_email_domain.php",
+            "src/functions/check_email.php",
+            "src/classes/SendEmailRunnable.php",
+            "src/classes/CheckEmailRunnable.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Artem Aleksashkin",
+            "email": "artem@aleksashkin.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-pdo": "*",
+        "ext-pcntl": "*",
+        "jenner/simple_fork": "^1.2",
+        "monolog/monolog": "^2.8"
+    }
+}

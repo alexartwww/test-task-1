@@ -1,0 +1,9 @@
+.git
+.dockerignore
+.env
+backups
+mysqldata
+docker-compose.yml
+Makefile
+Dockerfile
+init.sql

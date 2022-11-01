@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS `karma8`;
+CREATE DATABASE IF NOT EXISTS `karma8`;
+GRANT USAGE ON *.* TO 'karma8'@'localhost' IDENTIFIED BY '1234';
+GRANT ALL PRIVILEGES ON `karma8`.* TO 'karma8'@'localhost';
+GRANT USAGE ON *.* TO 'karma8'@'%' IDENTIFIED BY '1234';
+GRANT ALL PRIVILEGES ON `karma8`.* TO 'karma8'@'%';
