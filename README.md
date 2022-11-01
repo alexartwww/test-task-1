@@ -35,3 +35,8 @@ make mysql
 ```
 make send_email
 ```
+
+Чтобы запустить проверку эмейлов.
+```
+make check_email
+```
