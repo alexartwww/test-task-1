@@ -40,3 +40,5 @@ make send_email
 ```
 make check_email
 ```
+
+# You awesome!
